@@ -11,7 +11,7 @@ function App(){
         <div className="container">
             
             <NavBar titulo="My-Ecommerce" categoria1="Smartphones" categoria2="Tablets" categoria3="Laptops" />
-            <ItemListContainer greeting={"En este container agregaremos los items"}/>
+            <ItemListContainer greeting={"Bienvenidos"}/>
             
         </div>
         

@@ -9,11 +9,11 @@ function NavBar (props){
     return (
         <nav className="navbar">
             <h3 className="titulo">{titulo}</h3>
-            <div className='categorias'>
-                <button className='btn'>{categoria1}</button>
-                <button className='btn'>{categoria2}</button>
-                <button className='btn'>{categoria3}</button>
-            </div>
+            <ul className='categorias'>
+                <a href=""><li>{categoria1}</li></a>
+                <a href=""><li>{categoria2}</li></a>
+                <a href=""><li>{categoria3}</li></a>
+            </ul>
             <CartWidget/>
         </nav>
     )
