@@ -2,11 +2,11 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getProducts, getProductsByCategory,} from "../../asincMock";
 import {ItemList} from "../ItemList/ItemList";
-import ItemCount from "../ItemCount/ItemCount";
 
 
 
-const ItemListContainer =()=>{
+
+export const ItemListContainer =()=>{
     const {categoryId} = useParams();
     const [products, setProducts] = useState([]);
 
@@ -36,4 +36,3 @@ const ItemListContainer =()=>{
     )
 }
 
-export default ItemListContainer;

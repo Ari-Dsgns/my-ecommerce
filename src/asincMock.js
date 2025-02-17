@@ -51,18 +51,15 @@ const products = [
       "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
       "count": 400
     },
-    // {
-    //   "id": 6,
-    //   "title": "Solid Gold Petite Micropave ",
-    //   "price": 168,
-    //   "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-    //   "category": "jewelery",
-    //   "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-    //   "rating": {
-    //     "rate": 3.9,
-    //     "count": 70
-    //   }
-    // },
+    {
+      "id": 6,
+      "title": "Solid Gold Petite Micropave ",
+      "price": 168,
+      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "count": 70
+    },
     // {
     //   "id": 7,
     //   "title": "White Gold Plated Princess",
@@ -121,18 +118,15 @@ const products = [
     //     "count": 319
     //   }
     // },
-    // {
-    //   "id": 12,
-    //   "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-    //   "price": 114,
-    //   "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
-    //   "category": "electronics",
-    //   "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-    //   "rating": {
-    //     "rate": 4.8,
-    //     "count": 400
-    //   }
-    // },
+    {
+      "id": 12,
+      "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+      "price": 114,
+      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "count": 400
+    },
     // {
     //   "id": 13,
     //   "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",

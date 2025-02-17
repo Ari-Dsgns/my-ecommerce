@@ -1,9 +1,10 @@
 .CardItem{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    
     padding-bottom: 20px;
     width: 300px;
     height: auto;
@@ -30,10 +31,23 @@
     gap:2px;
     width: 100%;
     padding: 10px;
-    border-bottom: solid 1px rgba(0, 0, 0, 0);
+    color: rgb(50, 50, 50);
     background-color: rgb(255, 255, 255);
-    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     
-    
+}
+
+
+
+.OptionButton{
+    background-color: rgb(54, 78, 255);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
 }
 

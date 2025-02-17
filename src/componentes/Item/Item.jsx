@@ -14,7 +14,7 @@ const Item = ({ id, title, price, image, count }) => {
                 </p>
             </div>
             <div className="ItemFooter">
-                <Link to={`/item/${id}`} className="Option"> {/*Link a la ruta del item*/}
+                <Link to={`/item/${id}`} className="OptionButton"> {/*Link a la ruta del item*/}
                     Ver detalle
                 </Link>
             </div>

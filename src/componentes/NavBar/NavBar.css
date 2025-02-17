@@ -27,13 +27,12 @@
     display: flex;
     justify-content: center;
     gap: 40px;
-    font-size: 16px;
     color: rgb(230, 227, 227);
     button{
         background-color: transparent;
         border: none;
         color: rgb(230, 227, 227);
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 100;
         cursor: pointer;
     }
