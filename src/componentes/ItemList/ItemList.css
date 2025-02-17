@@ -1,12 +1,13 @@
 .Listgroup{
+    
     display: flex;
     width: 100%;
-    height: auto;
-    padding: 30px;
+    height: 100%;
+    padding: 10px;
     flex-wrap: wrap;
-    border: 0px solid rgba(59, 57, 57, 0.788);
+    border: 1px solid rgba(59, 57, 57, 0);
     justify-content:center;
-    margin: 0px;
+    padding-top: 100px;
     gap: 20px;
     
 }
