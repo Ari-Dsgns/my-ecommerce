@@ -40,10 +40,10 @@
 }
 
 .ActiveOption{
-    color: rgb(230, 227, 227);
+   
     padding: 6px;
     border-radius: 2px;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(97, 95, 95);
 }
 
 .Option{
