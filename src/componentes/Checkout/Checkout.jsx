@@ -76,19 +76,20 @@ export const Checkout = ()=>{
     }
 
     if(loading){
-        return <div className='pantalla-carga'><p>Cargando tu pedido...</p></div>
+        return <div className='pantalla-carga'><p>Loading...</p></div>
     }
 
     if(orderId){
         return <div className='compra-completada'>
-                    <p>Gracias por tu compra, el id de su compra es : <strong>{orderId}</strong> </p>
+
+                    <p>Thanks for Your purchase! Your purchase ID: <strong>{orderId}</strong> </p>
                     <Link to='/'><button className="ButtonBack">Back to main</button></Link>
                 </div>
     }
 
     return(
         <div className='form-checkout-container'>
-            <h2>Checkout form</h2>
+            <h2>Non-real purchase form</h2>
             <CheckoutForm onConfirm={createOrder}/>
         </div>
     )
