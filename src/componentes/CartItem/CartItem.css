@@ -1,0 +1,66 @@
+
+.item-container{
+    
+    background-color: #fff;
+    color: #3A506B;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    border: solid 1px rgba(69, 69, 69, 0);
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+    
+}
+
+.item-info{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+    border-right: solid 1px rgba(69, 69, 69, 0);
+    padding: 10px;
+}
+
+.item-container h3{
+    width: 450px;
+    font-size: 18px;
+}
+.item-container img{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.item-cantidad p{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+    border: solid 1px rgba(69, 69, 69, 0);
+}
+
+.item-total-container{
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    border: solid 1px rgba(69, 69, 69, 0);
+}
+.item-total-container p{
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: end;
+    border: solid 1px rgba(69, 69, 69, 0);
+}
+
+.DeleteButton{
+    width: 100px;
+    height: 30px;
+    border: solid 1px rgba(0, 0, 0, 0);
+    background-color: rgb(232, 232, 232);
+    color: rgb(26, 26, 26);
+    cursor: pointer;
+    
+}
+

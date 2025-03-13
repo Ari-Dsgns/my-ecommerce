@@ -1,0 +1,77 @@
+.cart-empty-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    border: 1px solid #3d516900;
+    
+}
+
+
+.cart-filled-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 1px solid rgba(59, 57, 57, 0);
+    justify-content:center;
+    padding-top: 100px;
+    gap: 0px;
+    background-color:  rgb(225, 220, 220);
+    
+}
+
+.checkout-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    border-top: solid 1px black;
+    padding: 40px;
+}
+
+.ButtonBack{
+        width: 200px;
+        border:solid 1px rgba(0, 0, 0, 0.829);
+        background-color: transparent;
+        color: #3a3a3a;
+    
+}
+
+
+.Button-container{
+    display: flex;
+    gap: 20px;
+    
+}
+.ButtonCheckout{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: rgb(255, 179, 36);
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: rgb(50, 50, 50);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ButtonClear{
+    width: 150px;
+    height: 30px;
+    border: solid 1px rgba(0, 0, 0, 0);
+    background-color: rgb(220, 220, 220);
+    color: rgb(26, 26, 26);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+

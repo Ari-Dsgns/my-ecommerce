@@ -1,0 +1,41 @@
+.CheckoutForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    align-self: center;
+    width: 100%;
+    height:auto;
+    background-color: white;
+    padding: 20px;
+    gap: 10px;
+}
+.CheckoutForm label{
+    
+    width: 100%;
+    padding: 0px;
+    font-size: 20px;
+    text-align: start;
+    color: #fff;
+}
+.CheckoutForm label input{
+    width: 100%;
+    padding: 10px;
+}
+
+.form-checkout-button-container{
+    display: flex;
+}
+.FormCheckoutButton{
+    width: 400px;
+    height: 40px;
+    background-color:  rgb(255, 179, 36);
+    margin-top: 20px;
+    font-weight: 600;
+    color: rgb(50, 50, 50);
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 1px solid #00000000;
+    cursor: pointer;
+}
