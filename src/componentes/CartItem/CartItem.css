@@ -10,6 +10,8 @@
     display: flex;
     justify-content:space-between;
     align-items: end;
+    overflow: hidden;
+    
     
 }
 
@@ -21,6 +23,9 @@
     gap: 20px;
     border-right: solid 1px rgba(69, 69, 69, 0);
     padding: 10px;
+    
+
+    
 }
 
 .item-container h3{
