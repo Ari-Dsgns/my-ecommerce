@@ -14,8 +14,10 @@ import { CartContext } from '../../Context/CartContext'
 
     return(
         <Link to='/cart'>
-            <img className='CartImg' src={cartIcon} alt='cart-widget'/>
-            <button className='quantity' style={{display:totalQuantity > 0 ? 'inline-block' : 'none'}}>{totalQuantity}</button>
+            <div className='CartBox'>
+                <img className='CartImg' src={cartIcon} alt='cart-widget'/>
+                <button className='quantity' style={{display:totalQuantity > 0 ? 'inline-block' : 'none'}}>{totalQuantity}</button>
+            </div>
         </Link>
     )
 }
