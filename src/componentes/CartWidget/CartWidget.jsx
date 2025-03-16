@@ -1,5 +1,4 @@
 
-
 import cartIcon from './assets/cartIcon.svg'
 import './CartWidget.css'
 import { Link } from 'react-router-dom'
