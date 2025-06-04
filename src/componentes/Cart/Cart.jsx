@@ -4,6 +4,7 @@ import { CartContext } from '../../Context/CartContext';
 import { CartItem } from '../CartItem/CartItem';
 import { Link } from 'react-router-dom';
 
+
 export const Cart = () => {
     const {cart, clearCart, totalQuantity, total} = useContext(CartContext);  
 
